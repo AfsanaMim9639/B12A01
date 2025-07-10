@@ -306,10 +306,16 @@ body {
 .footer {
   text-align: center;
   padding: 40px 20px;
-  background: #f9faff;
+  background-color: #fff;
+  width: 1440px;
+  margin: 40px auto;
   height: 428px;
 }
-
+.footer-section{
+    width:531px;
+    height:221px;
+    margin: 40px auto;
+}
 .footer nav {
   margin-top: 10px;
 }
@@ -321,7 +327,7 @@ body {
 }
 
 .footer .logo {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   color: #4F46E5;
   margin-bottom: 10px;
