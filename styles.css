@@ -274,6 +274,9 @@ body {
   align-items: flex-start;
   padding: 60px 20px;
   flex-wrap: wrap;
+  width: 1140px;
+  height: 632px;
+  margin: 40px auto;
 }
 
 .contact-left {
@@ -294,7 +297,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
 }
-
+.contact-form textarea {height: 80px}
 .contact-form label {
   font-weight: bold;
 }
