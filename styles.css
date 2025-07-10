@@ -227,6 +227,45 @@ body {
   height: 40px;
   border-radius: 50%;
 }
+
+/* Action Section */
+.ready-focus {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  width: 1140px;
+  height: 696.77px;
+  margin: 40px auto;
+  border-radius: 6px;
+}
+
+.ready-focus-text h2 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.ready-focus-text p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.ready-focus-text .btn {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.ready-focus-image {
+  margin-top: 40px;
+}
+
+.ready-focus-image img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
  
 /* Contact Section */
 .contact {
