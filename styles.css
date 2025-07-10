@@ -50,7 +50,7 @@ body {
       color: white;
       border: none;
       padding: 10px 20px;
-      border-radius: 6px;
+      border-radius: 10px;
       font-size: 16px;
       cursor: pointer;
     }
@@ -78,7 +78,7 @@ body {
       color: white;
       padding: 12px 30px;
       border: none;
-      border-radius: 6px;
+      border-radius: 10px;
       font-size: 16px;
       cursor: pointer;
     }
@@ -114,7 +114,7 @@ body {
     }
 
     .preview-btn {
-      background-color:rgb(49, 51, 200);
+      background-color:rgb(41, 101, 198);
       color: white;
       padding: 10px 20px;
       font-size: 14px;
@@ -132,27 +132,41 @@ body {
       border-radius: 30px;
     }
 /* Productive Users Section */
-.stats {
-  background-color: #E6E9FC;
-  padding: 60px 20px;
-  text-align: center;
-}
+    .stats-section {
+      background-color: #e0e7ff;
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 20px;
+      margin: 40px auto;
+      width: 1140px;
+    }
 
-.stats h2 {
-  margin-bottom: 30px;
-}
+    .stats-section h2 {
+      font-size: 24px;
+      color: #1f2937;
+      margin-bottom: 40px;
+    }
 
-.stats-numbers {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  flex-wrap: wrap;
-}
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
 
-.stats-numbers div {
-  color: #4F46E5;
-  font-size: 1.5rem;
-}
+    .stat {
+      margin: 10px 20px;
+    }
+
+    .stat h3 {
+      font-size: 50px;
+      color: #4f46e5;
+      margin-bottom: 5px;
+    }
+
+    .stat p {
+      color: #6b7280;
+      font-size: 14px;
+    }
 
 /* Contact Section */
 .contact {
