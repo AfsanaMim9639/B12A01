@@ -22,10 +22,10 @@ body {
 }
 
 .container {
-      width: 1440px;
+      margin: 40px  auto;
       height: 698px;
-      margin: 0 auto;
-      min-height: 100vh;
+      
+      width: 1440px;
       position: relative;
       background-image: url('Assets/Hero-bg.PNG')
     }
@@ -37,6 +37,8 @@ body {
       justify-content: space-between;
       align-items: center;
       padding: 0 20px;
+      width: 1140px;
+      margin: 40px auto;
     }
 
     .logo {
@@ -56,9 +58,13 @@ body {
     }
 
     .signup-btn:hover {
-      background-color: #2563eb;
+      background-color:rgb(37, 219, 235);
+      color:black;
+      font-size: 20px;
     }
-
+    .btn:hover{background-color:rgb(37, 219, 235);
+    color:black;
+    }
     /* Banner Section */
     .banner {
       text-align: center;
@@ -84,7 +90,9 @@ body {
     }
 
     .focus-btn:hover {
-      background-color: #2563eb;
+      background-color:rgb(37, 219, 235);
+      color:black;
+      font-size: 20px;
     }
 
 /* See it in Action Section */
@@ -124,7 +132,9 @@ body {
     }
 
     .preview-btn:hover {
-      background-color: #4f46e5;
+      background-color:rgb(37, 219, 235);
+      color:black;
+      font-size: 20px;
     }
 
     .action-image img {
