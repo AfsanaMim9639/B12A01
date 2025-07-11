@@ -8,18 +8,20 @@ html, body {
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   max-width: 100vw;
-  /* Remove outline after debugging */
-  /* outline: 1px solid red; */
+  
 }
 body {
   background-color: #f9faff;
   color: #111;
+  
+}
+body::-webkit-scrollbar {
+  display: none; /* For Chrome */
 }
 .action-section, 
 .stats-section, .testimonials, 
@@ -28,7 +30,7 @@ body {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
-  overflow: hidden; /* Add this to each */
+  overflow: hidden; 
 }
 /* Shared button style */
 .btn {
@@ -43,16 +45,15 @@ body {
 
 .container {
   width: 100%;
-  max-width: 100%; /* Ensure it never exceeds viewport */
+  max-width: 100%;
   position: relative;
   background-image: url('Assets/Hero-bg.png');
   margin: 0 auto;
-  padding: 0;
-  height: auto;
+  padding: 0 1rem; 
   min-height: 698px;
   background-size: cover;
   background-position: center;
-  overflow: hidden; /* Prevent any internal overflow */
+  overflow: hidden;
 }
 
     /* Navbar */
@@ -65,7 +66,7 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   width: 100%;
-  box-sizing: border-box; /* Ensure padding is included in width */
+  box-sizing: border-box; 
   overflow: hidden;
 }
 
@@ -279,8 +280,8 @@ body {
   background-color: #fff;
   width: 100%;
   max-width: 1140px;
-  height: auto; /* Changed from fixed height */
-  min-height: 696.77px; /* Use min-height instead */
+  height: auto; 
+  min-height: 696.77px; 
   margin: 40px auto;
   border-radius: 6px;
   overflow: hidden;
